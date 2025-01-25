@@ -2,8 +2,10 @@
 # Bounding Boxes Generation and Visualization
 
 ## Overview
+This Python script is designed to extract bounding box coordinates from segmented medical images. These coordinates are essential for training deep learning models, as they allow for efficient localization and classification of regions of interest. By automating the extraction process, this script facilitates the preparation of training datasets for tasks such as tumor detection and medical image analysis.
 
 This project contains Python code for generating 2D bounding boxes for each slice in a 3D medical image segmentation array. The bounding boxes are saved as a JSON file, and the code also includes functionality to visualize specific slices from the original volume with bounding boxes overlaid.
+
 
 ## Features
 
